@@ -24,3 +24,6 @@ elixir_config-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+
+# local development secrets
+config/dev.secret.exs

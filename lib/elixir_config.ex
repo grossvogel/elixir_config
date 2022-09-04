@@ -3,16 +3,7 @@ defmodule ElixirConfig do
   Documentation for `ElixirConfig`.
   """
 
-  @doc """
-  Hello world.
+  @module_attribute System.get_env("MODULE_ATTRIBUTE")
 
-  ## Examples
-
-      iex> ElixirConfig.hello()
-      :world
-
-  """
-  def hello do
-    :world
-  end
+  def module_attribute, do: @module_attribute
 end
